@@ -1,3 +1,446 @@
-.index-title {
-  font-size: 100px;
+
+
+.banner_bg {
+  background-image: url("../assets/images/home-header.png");
+  background-size: cover;
+  padding: 296px 0px;
 }
+
+.banner {
+  text-align: right;
+  color: #650300;
+}
+
+.banner h2 {
+  font-size: 36px;
+
+}
+
+.banner h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+
+.banner a {
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #AA0601;
+  text-decoration: none;
+  padding: 6px 12px;
+}
+
+
+/* 平板 */
+@media(max-width:992px) {
+  .banner_bg {
+      background-image: url("../assets/images/home-header-sm.png");
+      padding: 456px 0px 302px 0;
+  }
+}
+
+/* 手機版 */
+@media (max-width:576px) {
+
+  .container {
+      padding: 0px 14px;
+  }
+
+  .banner_bg {
+      padding: 144px 0px 149px 0px;
+
+  }
+
+  .banner {
+      text-align: right;
+  }
+
+  .banner h2 {
+      font-size: 16px;
+
+  }
+
+  .banner h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 8px;
+  }
+
+}
+
+
+.advantages_bg {
+  background: #FBF2F2;
+  padding: 80px 0px;
+}
+
+.advantages {
+  text-align: center;
+}
+
+.advantages h2 {
+  color: #650300;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 32.33px;
+}
+
+.advantages ol {
+  justify-content: space-between;
+}
+
+.advantages li {
+  width: 25%;
+  padding: 0px 12px;
+}
+
+@media(max-width:992px) {
+  .advantages ol {
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .advantages li {
+      width: 50%;
+
+  }
+}
+
+@media(max-width:576px) {
+  .advantages_bg {
+      padding: 40px 0px;
+  }
+
+  .advantages h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 32.08px;
+  }
+
+  .advantages ol {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .advantages li {
+      width: 80%;
+      margin-bottom: 32.08px;
+  }
+}
+
+.advantages img {
+  width: 27.49%;
+}
+
+.advantages .d-flex h3 {
+  color: #650300;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 24.08px;
+  margin-bottom: 8px;
+}
+
+.advantages .d-flex p {
+  color: #000000;
+  text-align: left;
+}
+
+
+.classic_bg {
+  color: #FFFFFF;
+  padding: 80px 0px;
+}
+
+.classic {
+  text-align: center;
+}
+
+.classic h2 {
+  color: #650300;
+  font-size: 48px;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+
+.classic ol {
+  justify-content: space-between;
+}
+
+.classic li {
+  width: 33.3333%;
+  padding: 0px 12px;
+}
+
+.classic img {
+
+  margin-bottom: 8px;
+}
+
+.classic h3 {
+  color: #AA0601;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@media(max-width:992px) {
+  .classic ol {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .classic li {
+      width: 55%;
+  }
+
+  .classic h3 {
+      margin-bottom: 24px;
+  }
+}
+
+@media(max-width:576px) {
+
+  .classic h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+  }
+
+  .classic li {
+      width: 100%;
+  }
+}
+
+
+.jointName_bg {
+  background-image: url("../assets/images/index-bg.png");
+  padding: 80px 0px;
+  background-size: cover;
+}
+
+.jointName {
+  text-align: center;
+}
+
+.jointName h2 {
+  color: #FFFFFF;
+  font-size: 48px;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+
+.jointName li {
+  width: 50%;
+}
+
+.jointName h3 {
+  color: #AA0601;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: italic;
+  background-color: #FFFFFF;
+  padding: 8px 0px;
+}
+
+@media(max-width:992px) {
+
+  .jointName_bg {
+      background-image: url("../assets/images/index-bg-sm.png");
+      padding-bottom: 48px;
+  }
+
+  .jointName ol {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .jointName li {
+      width: 90%;
+      margin-bottom: 32px;
+  }
+
+
+}
+
+@media(max-width:576px) {
+
+  .jointName_bg {
+      background-image: url("../assets/images/index-bg-md.png");
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  .jointName h2 {
+      color: #FFFFFF;
+      font-size: 24px;
+      margin-bottom: 24px;
+  }
+}
+
+.custRe_bg {
+  background-color: #FFFFFF;
+  padding: 80px 0px;
+}
+
+.custRe {
+  text-align: center;
+}
+
+.custRe h2 {
+  color: #650300;
+  font-size: 48px;
+  margin-bottom: 48px;
+  font-weight: bold;
+}
+
+.custRe ol {
+  justify-content: center;
+}
+
+.custRe li {
+  width: 19%;
+  box-shadow: 0px 2px 6px #00000029;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: left;
+  margin: 0px 12px;
+}
+
+.custRe li h3 {
+  font-weight: 500;
+  margin: 16px 0px 8px 16px;
+}
+
+.custRe li p {
+  margin: 0px 16px;
+}
+
+.date.date {
+  font-size: 14px;
+  color: #707070;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+@media(max-width:992px) {
+  .custRe ol {
+      flex-wrap: wrap;
+  }
+
+  .custRe li {
+      width: 40%;
+      margin: 12px 12px;
+  }
+
+}
+
+@media(max-width:576px) {
+  .custRe_bg {
+      padding: 40px 0px;
+  }
+
+  .custRe ol {
+      flex-wrap: wrap;
+  }
+
+  .custRe li {
+      width: 100%;
+  }
+}
+
+.contact_bg {
+  background-color: #FBF2F2;
+  padding: 80px 0px;
+}
+
+.formbox {
+  max-width: 636px;
+  margin: 0px auto;
+}
+
+.contact h2 {
+  font-size: 48px;
+  color: #650300;
+  font-weight: bold;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+
+.contact input{
+  border: 1px solid #000000;
+  padding: 6px 0 6px 12px;
+  
+}
+
+.contact textarea{
+  resize: none;
+  border: 1px solid #000000;
+  padding: 6px 0 6px 12px;
+}
+
+.contactSubmit{
+  display: block;
+  margin: 48px auto 0px auto;
+  background-color: #AA0601;
+  border: none;
+  width: 100%;
+  max-width: 416px;
+  color: #FFFFFF;
+  padding: 16px 0px;
+}
+
+@media(max-width:992px) {
+  .contact p {
+      font-size: 16px;
+  }
+
+}
+
+@media(max-width:576px) {
+  .contact h2 {
+      font-size: 24px;
+      margin-bottom: 24px;
+  }
+ .contactCheckli{
+  align-items: flex-start;
+ }
+}
+
+
+
+
+.footermenu {
+  margin-bottom: 26px;
+}
+
+.footermenu li a {
+  padding: 12px 32px;
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+  font-size: 36px;
+}
+
+.contactInfo li {
+  margin-bottom: 8px;
+}
+
+.contactInfo li a {
+  font-size: 36px;
+}
+
+.communityLink img {
+  width: 48px;
+}
+
+.communityLink a {
+  padding: 0px 16px;
+  display: inline-block;
+}
+

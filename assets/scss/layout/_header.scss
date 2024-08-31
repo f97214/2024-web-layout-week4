@@ -1,4 +1,56 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
-}
+@media(max-width:992px) {
+    .container {
+        max-width: 720px;
+        padding: 12px;
+        margin: 0 auto;
+    }
+  }
+  
+  
+  .logo {
+    width: 80px;
+    display: block;
+    margin: 16px 12px;
+  
+  }
+  
+  .menu {
+    align-items: center;
+  }
+  
+  .menu li a {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    display: inline-block;
+  }
+  
+  @media (max-width:576px) {
+  
+    .container {
+        padding: 0px;
+    }
+  
+    .titleBox {
+        flex-direction: column;
+  
+    }
+  
+    .menu {
+        flex-wrap: wrap;
+  
+    }
+  
+    .menu li {
+        width: 50%;
+        text-align: center;
+        padding: 0;
+    }
+  
+    .menu li a {
+  
+        width: 100%;
+        padding: 12px 0;
+        border: 1px solid #FFFFFF;
+    }
+  }

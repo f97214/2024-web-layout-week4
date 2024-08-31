@@ -1,0 +1,96 @@
+.store h1 {
+    font-size: 48px;
+    font-weight: bold;
+    border-left: 8px solid #9F1213;
+    margin-top: 96px;
+    margin-bottom: 32px;
+    padding-left: 16px;
+}
+
+.regionDiv {
+    label {
+        font-size: 24px;
+        margin-right: 16px;
+    }
+
+    select {
+        width: 304px;
+        height: 38px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #CED4DA;
+    }
+
+    margin-bottom: 46px;
+
+}
+
+.storeCard {
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    gap:  48px 24px;
+    h2 {
+        padding-left: 24px;
+    }
+
+    p {
+        padding-left: 24px;
+    }
+}
+/* 平板 */
+@media(max-width:992px) {
+    .storeCard {
+        gap:  24px 24px;
+
+    }
+
+  }
+
+.storeCard li {
+    max-width: 32%;
+    border:1px solid #00000020;
+    flex-direction: column;
+
+    h2{
+        font-size: 24px;
+        border:1px solid #00000020;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .material-symbols-outlined{
+        margin-right: 8px;
+        font-size: 24px;
+    }
+    // div{
+    //     flex-direction: column;
+    // }
+    a{
+        display: block;
+        text-align: center;
+        margin-top: auto;
+        padding:  16px 0px;
+        background-color: black;
+    }
+}
+
+/* 平板 */
+@media(max-width:992px) {
+    .storeCard li {
+        max-width: 48%;
+    }
+
+  }
+
+  /* 手機版 */
+@media (max-width:576px) {
+
+    .storeCard li {
+        max-width: 99%;
+    }
+  }
